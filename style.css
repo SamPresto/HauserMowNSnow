@@ -4,6 +4,7 @@ body {
     font-family: 'Merriweather Sans', sans-serif;
     width: 100vw;
     height: 200vh;
+    overflow-x: hidden;
 }
 
 nav {
@@ -21,9 +22,8 @@ nav {
     width: 60px;
     margin-left: 1em;
 }
-/* .rightSide:before, */
+
 .rightSide {
-    /* width: 35vw; */
     display: flex;
     justify-content: space-between;
     margin-right: 1em;
@@ -32,7 +32,6 @@ nav {
 .rightSide a {
     position: relative;
     margin: 0 1em;
-    /* padding: 0 .75em; */
     padding: 0 10px;
     text-decoration: none;
 }
@@ -60,11 +59,11 @@ nav a {
 
 main {
     background-image: url("images/mainImage.jpg");
-    background-position: center -15px;
+    background-position: center -10px;
     height: 90vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 h1 {
     color: white;
@@ -73,5 +72,77 @@ h1 {
     text-align: center;
     line-height: 1.5;
     font-size: 4em;
-    margin-top: -.5em;
+    margin-top: 2em;
+    margin-left: 4em;
+    /* letter-spacing: 4px; */
+
+
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.4);
+
+}
+
+.quickLinks {
+    position: absolute;
+    right: 300px;
+}
+.quote {
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    margin-bottom: 2em;
+}
+.quote p {
+    position: absolute;
+    margin-left: 15px;
+}
+.topText {
+    margin-bottom: 70px;
+    font-weight: 700;
+    font-size: 1.4em;
+}
+.bottomText {
+    margin-top: 60px;
+    color: #404040;
+}
+.services {
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    margin-top: 2em;
+}
+.services p {
+    position: absolute;
+    width: 280px;
+    margin-left: 15px;
+}
+.topText2 {
+    font-weight: 700;
+    font-size: 1.4em;
+    margin-top: 14px;
+}
+.bottomText2 {
+    margin-top: 49px;
+    font-size: .9em;
+    color: #404040;
+}
+
+.arrow {
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(90deg, #52A93C 0%, rgba(106, 207, 80, 0.71) 100%);
+    color: white;
+    display: flex;
+    align-items: center;
+    opacity: 100%;
+    transition: all .2s ease-in-out;
+}
+.arrow p {
+    width: auto;
+    font-size: 60px;
+    margin-left: 23px;
+}
+.arrow:hover {
+    opacity: 70%;
 }
