@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+    width: 100vw;
+    height: 200vh;
+}
+
+nav {
+    /* position: absolute; */
+    width: 1927px;
+    min-height: 80px;
+    background: linear-gradient(270deg, #52A93C 0%, rgba(106, 207, 80, 0.71) 100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+}
+#logo {
+    width: 60px;
+    margin-left: 1em;
+}
+/* .rightSide:before, */
+.rightSide {
+    /* width: 35vw; */
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1em;
+    box-sizing: border-box;
+}
+.rightSide a {
+    position: relative;
+    margin: 0 1em;
+    /* padding: 0 .75em; */
+    padding: 0 10px;
+    text-decoration: none;
+}
+.rightSide a:after {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -7px;
+    transition: .3s;
+}
+.rightSide a:hover:after {
+    width: 100%;
+}
+nav a {
+    color: white;
+    font-size: 700;
+}
+
+
+
+
+
+main {
+    background-image: url("images/mainImage.jpg");
+    background-position: center -15px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    color: white;
+    width: 700px;
+    height: 484px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 4em;
+    margin-top: -.5em;
+}
