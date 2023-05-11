@@ -146,3 +146,80 @@ h1 {
 .arrow:hover {
     opacity: 70%;
 }
+
+
+
+.ourBusiness {
+    height: 55vh;
+    display: flex;
+    align-items: center;
+}
+.topUnderline {
+    background-color: black;
+    height: 6px;
+    width: 23.5%;
+}
+.textBusiness {
+    width: 50%;
+    margin-left: 4em;
+    line-height: 2.8;
+    background-color: rgba(140,140,140,.4);
+    border-radius: 10px;
+    padding: 40px 30px;
+}
+.textBusiness h2 {
+    margin-top: -.7em;
+    font-size: 2.2em;
+}
+.leftTextBusiness {
+    margin-bottom: 2em;
+    line-height: 2;
+}
+.rightTextBusiness {
+    text-align: right;
+    margin-top: 2em;
+    line-height: 2;
+}
+.businessImage {
+    margin-left: 8em;
+}
+.businessImage img {
+    width: 500px;
+}
+
+
+
+
+
+.movingContainer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-image: url("images/movingBackground.jpg");
+    
+    color: black;
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+  }
+  .box {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    white-space: nowrap;
+    background-color: white;
+    opacity: 80%;
+    animation: moveText 11s linear infinite;
+  }
+  .box span {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: 700;
+    font-size: 1.8em;
+  }
+  @keyframes moveText {
+    0% { transform: translateX(200%); }
+    100% { transform: translateX(-100%); }
+  }
