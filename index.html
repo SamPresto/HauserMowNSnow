@@ -14,6 +14,12 @@
 </head>
 <body>
 
+
+
+
+
+
+
     <nav>
         <div class="leftSide">
             <a href="index.html">
@@ -26,6 +32,13 @@
             <a href="">Recources</a>
             <a href="">Services</a>
         </div>
+
+
+        <!-- <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div> -->
     </nav>
 
     <main>
@@ -58,6 +71,53 @@
         </div>
     </main>
 
+
+    <!-- this is for js slide -->
+    <div class="intro">
+        <div class="intro-text">
+            <h2 class="hide">
+                <span class="text">Creating inovation</span>
+            </h2>
+            <h2 class="hide">
+                <span class="text">For Everyday</span>
+            </h2>
+            <h2 class="hide">
+                <span class="text">People.</span>
+            </h2>
+        </div>
+    </div>
+
+    <div class="slider"></div>
+
+    <!-- end of js slide -->
+
+
+
+
+
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+        integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+        crossorigin="anonymous"
+    ></script>
+
+
+    <script src="app.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <section class="ourBusiness">
 
         <div class="textBusiness">
@@ -68,7 +128,7 @@
             
             <p class="leftTextBusiness">Hauser Mow & Snow LLC was founded by brothers Mikael Hauser (18) and Dominik Hauser (17) with the goal of saving money for education. We service lawns in the West Madison and Middleton area and are always looking to improve and expand. </p>
 
-            <p class="rightTextBusiness">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt sit explicabo non voluptate placeat quia molestiae asperiores nisi harum iusto amet, obcaecati eos aut sed, magni assumenda, officia voluptas consectetur!</p>
+            <p class="rightTextBusiness">Started in 2020, Hauser Mow & Snow was originally a small side gig, but overtime, the idea of expanding into other services and areas became reality. Nowadays, we continue to expand as we work with new and existing clients.</p>
         </div>
 
         <div class="businessImage">
@@ -77,15 +137,148 @@
 
     </section>
 
-    <section class="moving">
+    <!-- <section class="moving">
         <div class="movingContainer">
             <div class="box">
               <span>Schedule Today and Get 10% Off Your First Service</span>
             </div>
           </div>
+    </section> -->
+
+
+    <section class="gallery">
+        <div class="topRow">
+            <img id="img1" src="Images/lawn1.JPG" alt="Lawn 1">
+            <img id="img2" src="Images/lawn2.JPG" alt="Lawn 2">
+            <img id="img1" src="Images/lawn3.JPG" alt="Lawn 3">
+        </div>
+
+        <div class="middleRow">
+            <img id="img2" src="Images/lawn4.JPG" alt="">
+            <img id="img1" src="Images/lawn5.JPG" alt="">
+            <img id="img2" src="Images/lawn6.JPG" alt="">
+        </div>
+
+        <div class="bottomRow">
+            <img id="img1" src="Images/lawn7.JPG" alt="Lawn 7">
+            <img id="img2" src="Images/lawn8.JPG" alt="Lawn 8">
+            <img id="img1" src="Images/lawn1.JPG" alt="Lawn 9">
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="topTextTestimonials">
+            <div class="testimonialsTopUnderline"></div>
+            <h2>Testimonials</h2>
+        </div>
+
+        <div class="testimonialsContent">
+            <div id="reviews" class="testimonial1">
+                <p class="textTestimonial"><span>"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus maxime voluptas quasi consequuntur dicta! Deleniti, repellat animi eveniet, expedita dignissimos ipsam fugit molestias tempora reiciendis culpa ullam et incidunt in.</p>
+                <p class="nameTestimonial">Siri I.</p>
+            </div>
+
+
+            <div id="reviews" class="testimonial2">
+                <p class="textTestimonial"><span>"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus maxime voluptas quasi consequuntur dicta! Deleniti, repellat animi eveniet, expedita dignissimos ipsam fugit molestias tempora reiciendis culpa ullam et incidunt in.</p>
+                <p class="nameTestimonial">Jesus C.</p>
+            </div>
+
+
+            <div id="reviews" class="testimonial3">
+                <p class="textTestimonial"><span>"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus maxime voluptas quasi consequuntur dicta! Deleniti, repellat animi eveniet, expedita dignissimos ipsam fugit molestias tempora reiciendis culpa ullam et incidunt in.</p>
+                <p class="nameTestimonial">Peter G.</p>
+            </div>
+        </div>
+        
+
     </section>
 
     
+    <section class="ourServices">
+
+        <div class="ourServicesTopText">
+            <div class="ourServicesTopUnderline"></div>
+            <h2>Our Services</h2>
+        </div>
+
+        <div class="ourServicesContent">
+            <a href="services.html">
+                <div class="ourServices1">
+                    <p class="serviceName">Regular Mowing Services</p>
+                    <p class="serviceDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic illo officia et magnam quibusdam molestias a quidem repellendus tempora iure. Reiciendis asperiores quo recusandae suscipit odio repellendus blanditiis quis vel.</p>
+                </div>
+            </a>
+            <a href="services.html">
+                <div class="ourServices2">
+                    <p class="serviceName">Snow Plowing</p>
+                    <p class="serviceDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic illo officia et magnam quibusdam molestias a quidem repellendus tempora iure. Reiciendis asperiores quo recusandae suscipit odio repellendus blanditiis quis vel.</p>
+                </div>
+            </a>
+            <a href="services.html">
+                <div class="ourServices3">
+                    <p class="serviceName">Fall/Spring Cleanup</p>
+                    <p class="serviceDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic illo officia et magnam quibusdam molestias a quidem repellendus tempora iure. Reiciendis asperiores quo recusandae suscipit odio repellendus blanditiis quis vel.</p>
+                </div>
+            </a>
+            <a href="services.html">
+                <div class="ourServices4">
+                    <p class="serviceName">Dethatching</p>
+                    <p class="serviceDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic illo officia et magnam quibusdam molestias a quidem repellendus tempora iure. Reiciendis asperiores quo recusandae suscipit odio repellendus blanditiis quis vel.</p>
+                </div>
+            </a>
+            
+
+            
+
+            
+
+            
+        </div>
+        
+
+    </section>
+
+    <section class="freeQuote">
+        <div class="quoteBtn">
+            <a href=""><b>Get A Free Quote</b></a>
+        </div>
+    </section>
+
+
+    <footer>
+
+        <div class="column1">
+            <p>Hauser Mow & Snow</p>
+            <p>Mikael & Dominik Hauser LLC</p>
+            <p id="phoneNumber">(608) 504-8696</p>
+            <p id="copyright"><span>&#169;</span>2023 Hauser Mow & Snow All Rights Reserved. </p>
+        </div>
+        <div class="column2">
+            <a href="about.html">
+                <p>About</p>
+            </a>
+            <a href="recources.html">
+                <p>Recources</p>
+            </a>
+            <a href="services.html">
+                <p>Services</p>
+            </a>
+            <a href="contact.html">
+                <p>Contact</p>
+            </a>
+            
+        </div>
+        <div class="column3">
+            <a href="quote.html"><p>Get a Quote</p></a>
+            <a href="#testimonials"><p>Testimonials</p></a>
+            <a class="top" onclick="toTop()"><p>Top<span>&uarr;</span></p></a>
+            
+            
+            
+        </div>
+
+    </footer>
 
     
 </body>
