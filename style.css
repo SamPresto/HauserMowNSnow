@@ -242,7 +242,7 @@ h1 {
     margin-left: 4em;
     line-height: 2.8;
     background-color: rgba(140,140,140,.4);
-    border-radius: 10px;
+    /* border-radius: 10px; */
     padding: 40px 30px;
 }
 .textBusiness h2 {
@@ -401,10 +401,6 @@ h1 {
     font-weight: 700;
 }
 
-.woah {
-    height: 20vh;
-    background-color: rgb(90, 90, 90);
-}
 
 
 
