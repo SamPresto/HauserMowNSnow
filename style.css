@@ -268,39 +268,6 @@ h1 {
 
 
 
-.movingContainer {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    background-image: url("images/movingBackground.jpg");
-    
-    color: black;
-    position: relative;
-    height: 100px;
-    overflow: hidden;
-  }
-  .box {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    width: 50%;
-    height: 80%;
-    white-space: nowrap;
-    background-color: white;
-    opacity: 80%;
-    animation: moveText 11s linear infinite;
-  }
-  .box span {
-    margin-top: auto;
-    margin-bottom: auto;
-    font-weight: 700;
-    font-size: 1.8em;
-  }
-  @keyframes moveText {
-    0% { transform: translateX(200%); }
-    100% { transform: translateX(-100%); }
-  }
-
 
 
 
@@ -335,6 +302,64 @@ h1 {
 .bottomRow {
     display: flex;
     align-items: flex-start;
+}
+
+
+
+
+
+.extraContainer {
+    display: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.container {
+    z-index: -2;
+    width: 80vmin;
+    position: relative;
+    transform: translate(-50%, -50%);
+    /* top: 50%; */
+    left: 50%;
+    overflow: hidden;
+    border: 20px solid #151515;
+    border-radius: 8px;
+    box-shadow: 0px 25px 30px rgba(106,207,80,0.65);
+}
+.wrapper {
+    width: 100%;
+    display: flex;
+}
+@keyframes slide{
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(0);
+    }
+    30% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(-100%);
+    }
+    55% {
+        transform: translateX(-200%);
+    }
+    75% {
+        transform: translateX(-200%);
+    }
+    80% {
+        transform: translateX(-300%);
+    }
+    100% {
+        transform: translateX(-299.5%);
+    }
+}
+img {
+    width: 100%;
 }
 
 
@@ -915,33 +940,18 @@ footer a {
     }
 }
 @media (max-width: 900px) {
-    .topRow {
-        flex-direction: column;
-    }
-    .middleRow {
-        flex-direction: column;
-    }
-    .bottomRow {
-        flex-direction: column;
-    }
-    .gallery img {
-        width: 600px;
-        height: auto;
-    }
-    .gallery #img1 {
-        margin-right: 75px;
-    }
-    .gallery #img2 {
-        margin-left: 75px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
-    .gallery img:hover {
-        width: 650px;
-        height: auto;
-    }
     .gallery {
-        padding: 35px 0;
+        display: none;
+    }
+    .extraContainer {
+        display: block;
+        margin-top: 15em;
+    }
+    .wrapper {
+        animation: slide 16s infinite;
+    }
+    .testimonials {
+        margin-top: -8em;
     }
     .quickLinks {
         right: 25.5%;
