@@ -1,3 +1,13 @@
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.rightSide');
+
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    navMenu.classList.toggle('active');
+});
+
+
+
 const tl = gsap.timeline({defaults: { ease: 'power1.out' } });
 
 tl.to('.text', {y:'0%', duration: 1, stagger: 0.25 });
