@@ -115,7 +115,44 @@ nav a {
 
 
 
-
+@media (max-width: 1858px) {
+    h4 {
+        margin: 15px 0;
+    }
+}
+@media (max-width: 1500px) {
+    h4 {
+        margin: 10px 0;
+    }
+    h2 {
+        margin-bottom: 20px;
+    }
+    .text {
+        margin-left: 2em;
+    }
+    .text p {
+        font-size: 1.12em;
+    }
+    .container {
+        width: 90%;
+    }
+    .container img {
+        margin-left: -40px;
+    }
+}
+@media (max-width: 1103px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+    .text {
+        width: 95%;
+    }
+    .container img {
+        height: 60vh;
+        margin-bottom: 8em;
+        margin-left: 0;
+    }
+}
 
 
 
@@ -170,5 +207,74 @@ nav a {
         background-color: rgba(255, 255, 255, 0.96);
         left: 0;
         padding: 0;
+    }
+}
+@media (max-width: 760px) {
+    .container img {
+        margin-top: 2em;
+    }
+    .text {
+        margin-left: 0;
+    }
+}
+@media (max-width: 559px) {
+    .container img {
+        margin-top: 8em;
+        height: 50vh;
+        margin-bottom: 6em;
+    }
+}
+@media (max-width: 459px) {
+    
+    .container {
+        width: 95%;
+    }
+}
+@media (max-width:450px) {
+    #logo {
+        width: 200px;
+    }
+}
+@media (max-width: 435px) {
+    .container img {
+        margin-top: 16em;
+        height: 40vh;
+        margin-bottom: 2em;
+    }
+}
+@media (max-width: 372px) {
+    .container img {
+        margin-top: 24em;
+        height: 30vh;
+    }
+    .container {
+        width: 95%;
+    }
+}
+@media (max-width: 340px) {
+    .container img {
+        margin-top: 30em;
+        height: 25vh;
+    }
+    .container {
+        width: 95%;
+    }
+}
+@media (max-width: 308px) {
+    .container img {
+        margin-top: 35em;
+        height: 25vh;
+    }
+    .container {
+        width: 95%;
+    }
+}
+@media (max-width: 286px) {
+    .container img {
+        margin-top: 40em;
+        height: 25vh;
+    }
+    .container {
+        width: 95%;
     }
 }
