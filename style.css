@@ -87,7 +87,7 @@ main {
 }
 h1 {
     color: white;
-    width: 700px;
+    max-width: 700px;
     height: 484px;
     text-align: center;
     line-height: 1.5;
@@ -828,19 +828,19 @@ footer a {
     }
     .quickLinks {
         right: 32%;
-        margin-top: 42%;
+        margin-top: 52%;
     }
     .ourServicesTopUnderline {
         margin-left: 40px;
     }
     h1 {
-        margin-top: 1.5em;
+        margin-top: 2em;
     }
 }
 @media (max-width: 1100px) {
     .quickLinks {
         right: 31%;
-        margin-top: 46%;
+        margin-top: 56%;
     }
     .gallery img {
         width: 310px;
@@ -860,7 +860,7 @@ footer a {
         margin-left: 50px;
     }
     .quickLinks {
-        margin-top: 48%;
+        margin-top: 60%;
         right: 30%;
     }
 }
@@ -899,13 +899,10 @@ footer a {
 
     }
     .ourServices2 {
-        margin: 1em 0;
+        margin: 1em 0 0 0;
     }
     .ourServices3 {
         margin: 1em 0;
-    }
-    .ourServices4 {
-
     }
 }
 @media (max-width: 975px) {
@@ -922,7 +919,7 @@ footer a {
         margin-left: 35px;
     }
     .quickLinks {
-        margin-top: 54%;
+        margin-top: 64%;
         right: 28.5%;
     }
 }
@@ -955,7 +952,7 @@ footer a {
     }
     .quickLinks {
         right: 25.5%;
-        margin-top: 62%;
+        margin-top: 66%;
     }
 }
 @media (max-width: 850px) {
@@ -969,7 +966,7 @@ footer a {
 @media (max-width: 800px) {
     .quickLinks {
         right: 24%;
-        margin-top: 66%;
+        margin-top: 70%;
     }
     .column2 {
         margin-left: 8em;
@@ -977,6 +974,12 @@ footer a {
     }
     .freeQuote {
         height: 15vh;
+    }
+    h1 {
+        margin-top: 2.5em;
+    }
+    .ourBusiness {
+        margin-left: 1.7em;
     }
 }
 
@@ -1043,5 +1046,264 @@ footer a {
     }
     .gallery img:hover {
         width: 540px;
+    }
+    .quickLinks {
+        margin-top: 74%;
+        right: 22%;
+    }
+    .extraContainer {
+        margin-top: 14em;
+    }
+    .testimonials {
+        margin-top: -8em;
+    }
+}
+@media (max-width: 730px) {
+    .ourServicesTopText {
+        width: 23%;
+    }
+}
+
+@media (max-width: 700px) {
+    .quickLinks {
+        margin-top: 80%;
+        right: 20%;
+    }
+    .extraContainer {
+        margin-top: 12em;
+    }
+    .testimonials {
+        margin-top: -6em;
+    }
+}
+@media (max-width: 670px) {
+    .quickLinks {
+        margin-top: 90%;
+        right: 16;
+    }
+}
+@media (max-width: 640px) {
+    .ourBusiness {
+        margin-left: 1.4em;
+    }
+    .ourServicesTopText {
+        width: 25%;
+    }
+    .quickLinks {
+        right: 18%;
+        margin-top: 94%;
+    }
+    h1 {
+        margin-top: 1.5em;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+@media (max-width: 610px) {
+    h1 {
+        margin-top: 1em;
+    }
+    .quickLinks {
+        margin-top: 95%;
+        right: 15%;
+    }
+    .extraContainer {
+        margin-top: 10em;
+    }
+    .testimonials {
+        margin-top: -4em;
+    }
+}
+@media (max-width: 590px) {
+    .ourServicesTopText {
+        width: 30%;
+    }
+    .column2 {
+        line-height: 1.7;
+    }
+    .column3 {
+        line-height: 2;
+    }
+}
+@media (max-width: 550px) {
+    h1 {
+        font-size: 3em;
+        margin-top: 2em;
+    }
+    .quickLinks {
+        right: 10%;
+        margin-top: 110%;
+    }
+    .column2 {
+        margin-left: 1em;
+    }
+    .ourBusiness img {
+        width: 400px;
+    }
+    .ourBusiness p {
+        line-height: 1.5;
+    }
+}
+@media (max-width: 500px) {
+    .quickLinks {
+        right: 7%;
+        margin-top: 120%;
+    }
+    .ourBusiness {
+        margin-left: 1em;
+    }
+    .ourBusiness img {
+        width: 350px;
+    }
+    .extraContainer {
+        margin-top: 8em;
+    }
+    .testimonials {
+        margin-top: -2em;
+    }
+}
+@media (max-width: 490px) {
+    .ourServicesTopText {
+        width: 33%;
+    }
+}
+@media (max-width: 460px) {
+    .quickLinks {
+        right: 5%;
+    }
+    h1 {
+        font-size: 2.5em;
+        margin-top: 4em;
+    }
+}
+@media (max-width: 450px) {
+    .ourServicesTopText {
+        width: 36%;
+    }
+    .quickLinks {
+        right: 3.5%;
+    }
+    #logo {
+        width: 250px;
+    }
+    .leftTextBusiness {
+        width: 95%;
+        /* margin: 0; */
+    }
+    .rightTextBusiness {
+        width: 95%;
+    }
+}
+@media (max-width: 430px) {
+    .quickLinks {
+        right: 10%;
+        margin-top: 140%;
+    }
+    .quote {
+        width: 300px;
+    }
+    .quote .topText, .quote .bottomText {
+        width: 60%;
+    }
+    .quote .topText {
+        margin-top: 20px;
+    }
+    .quote .bottomText {
+        margin-top: 50px;
+    }
+    .services {
+        width: 300px;
+    }
+    .services .topText2, .services .bottomText2 {
+        width: 60%;
+    }
+    .services .topText2 {
+        margin-top: 10px;
+    }
+    .services .bottomText2 {
+        margin-top: 40px;
+    }
+    .column2 {
+        margin-right: 20px;
+    }
+    footer {
+        font-size: .9em;
+    }
+}
+@media (max-width: 420px) {
+    .ourBusiness img {
+        width: 300px;
+    }
+    .testimonials {
+        margin-bottom: 2em;
+    }
+    .ourServices {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+}
+@media (max-width: 410px) {
+    .ourServicesTopText {
+        width: 40%;
+    }
+    .quoteBtn a {
+        padding: .5em 1em;
+        font-size: 24px;
+    }
+}
+@media (max-width: 380px) {
+    .quickLinks {
+        margin-top: 120%;
+        right: 8%;
+    }
+    h1 {
+        font-size: 2.2em;
+        margin-top: 2em;
+    }
+    main {
+        height: 70vh;
+    }
+    .ourBusiness img {
+        width: 275px;
+    }
+    .extraContainer {
+        margin-top: 6em;
+    }
+    .testimonials {
+        margin-top: -2em;
+    }
+}
+@media (max-width: 370px) {
+    .ourServicesTopText {
+        width: 50%;
+    }
+    .textBusiness p {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media (max-width: 350px) {
+    .quickLinks {
+        right: 5%;
+        margin-top: 120%;
+    }
+    #logo {
+        width: 200px;
+    }
+}
+@media (max-width: 337px) {
+    .quickLinks {
+        margin-top: 135%;
+    }
+    h1 {
+        margin-top: 1em;
+    }
+}
+@media (max-width: 330px) {
+    footer {
+        font-size: 0.8em;
+    }
+    .ourBusiness img {
+        width: 250px;
     }
 }
